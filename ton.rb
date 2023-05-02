@@ -5,7 +5,7 @@ class Ton < Formula
   if Hardware::CPU.arm?  
     head "https://github.com/neodiX42/ton/releases/latest/download/ton-arm64.tar.gz"
   else
-    head "https://github.com/neodiX42/ton/releases/latest/download/ton-amd64.tar.gz"
+    head "https://github.com/ton-blockchain/ton/releases/download/v2023.04/ton-mac-x86-64.zip"
   end
   license "LGPL-2.0-only"
 
